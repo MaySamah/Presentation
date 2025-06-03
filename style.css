@@ -1,0 +1,257 @@
+*
+    {
+        background-color: #000;
+        color: #f1f1f1;
+    }
+
+#email
+    {
+        align-items: center;
+        background-color: #f1f1f1;
+    }
+
+#name
+    {
+        align-items: center;
+        background-color: #f1f1f1;
+    }
+
+#tel
+    {
+        background-color: #f1f1f1;
+    }
+
+#date
+    {
+        background-color: #f1f1f1;
+    }
+
+    *
+    {
+        margin:40px 20px
+    }
+#sticky
+    {
+        position: sticky;
+        top: 0;
+        padding: 5px;
+    }
+
+nav
+    {
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        text-align: center;
+        /* position: absolute;
+        top: 55px;
+        right: 0;
+        width: 200px;
+        height: 100px;
+        border: 3px solid darkgrey; */
+    }
+
+a
+    {
+        text-decoration: none;
+    }
+
+h1
+    {
+        background-color: rgb(125, 130, 125);
+        text-align: center;
+    }
+
+.text
+    {
+        color: grey;
+        padding: 100px;
+        border: 10px solid red;
+    }
+
+
+#p1
+    {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+#p2
+    {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+.sections
+    {
+        color: orange;
+    }
+
+:target
+    {
+        border: 2px solid black;
+        background-color: white;
+    }
+
+.btn
+    {
+        width:100px; height:30px;
+        border:solid 2px#005CC8;
+    }
+
+form
+    {
+        height: auto;
+        width: 80%;
+        text-align: start;
+    }
+
+.flex-vert
+    {
+        display: flex;
+        flex-direction: row;
+        background-color: #4B0082;
+    }
+
+.flex-vert > div
+    {
+        background-color: black;
+        margin: 10px;
+        padding: 20px;
+    }
+
+.flex-col
+    {
+        display: flex;
+        flex-direction: column;
+        background-color: #4B0082;
+    }
+
+.flex-col > div
+    {
+        background-color: black;
+        margin: 10px;
+        padding: 20px;
+    }
+ 
+.flex-rev
+    {
+        display: flex;
+        flex-direction: row-reverse;
+        background-color: #4B0082;
+    }
+    
+.flex-rev > div
+    {
+        background-color: black;
+        margin: 10px;
+        padding: 20px;
+    }
+
+#h2
+    {
+        text-align: center;
+    }
+
+.grid-container 
+    {
+            display: grid;
+            grid-template-columns: 100px 100px 100px;
+            grid-template-rows: 100px 100px;
+            background-color: #800080;
+    }
+
+.grid-container > div
+    {
+        background-color: #f1f1f1;
+        color: #000;
+        font-size: 30px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+.grid-item
+    {
+       
+    }
+
+.grid-container2
+    {
+        display: grid;
+        grid-template-columns: 100px 100px 100px;
+        grid-template-rows: 100px 100px 100px;
+
+    }
+
+.grid-template-layout
+{
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "aside main main"
+    "footer footer footer";
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100px 200px 100px;
+    gap: 10px;
+    height: 100vh;
+}
+
+.grid-template-layout > header
+    {
+
+    }
+
+.header
+    {
+        grid-area: header;
+        text-align: center;
+        background-color: blue;
+    }
+
+.aside
+    {
+        grid-area: aside;
+        text-align: center;
+        background-color: yellow;
+    }
+
+.main
+    {
+        grid-area: main;
+        text-align: center;
+        background-color: green;
+    }
+
+.small-screen
+    {
+        color: darkblue;
+    }
+
+.footer
+    {
+        grid-area: footer;
+        text-align: center;
+        background-color: purple;
+    }
+
+    @media (max-width:769px)
+        {
+            .small-screen:hover
+                {
+                    color: orange;
+                    background-color: #000;
+                    display: flex;
+                    justify-content: center;
+                }
+
+            .small-screen:hover
+                {
+                    color: #000;
+                    background-color: orange;
+                    display: flex;
+                    justify-content: center;
+                }
+
+            #p1:target
+                {
+                    background-color: red;
+                }
+        }
