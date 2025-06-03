@@ -5,7 +5,7 @@ alert ("Hello World");
 let name = prompt ("Hello", "");
 if (name != null)
     {
-        document.getElementById("demo").innerHTML = "Hello " + name + ".";
+        document.getElementById("demo").innerHTML = "GoodBye " + name + ".";
     }
 
 // Activity Variables Research
