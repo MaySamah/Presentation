@@ -4,16 +4,17 @@
 alert ("Hello World");
 
 // Using prompt to popup and take input and return data
-let name = prompt ("Hello", "");
-if (name != null)
-    {
-        document.getElementById("demo").innerHTML = "Hello " + name + ".";
-    }
+// let name = prompt ("Hello", "");
+// if (name != null)
+//     {
+//         document.getElementById("demo").innerHTML = "Hello " + name + ".";
+//     }
 
 // // Activity Variables Research
 let fname = prompt ("What is your first name?")
-let age = prompt ("How old are you?")
-alert ("Hello " + fname + " who is " + age + " years old.");
+// let age = prompt ("How old are you?")
+// alert ("Hello " + fname + " who is " + age + " years old.");
+alert (" Hello, " + fname);
 
 // let breakfast = "toast";
 // let lunch = "sandwich";
@@ -43,8 +44,8 @@ alert ("Hello " + fname + " who is " + age + " years old.");
 // console.log(time);
 
 // Activity Property & Method Challenge
-let myString = "Hello World"
-console.log(myString.length);
-console.log(myString.toUpperCase());
-console.log(myString.substring(5));
-/////////////////////////////////// END JS SECTION \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+// let myString = "Hello World"
+// console.log(myString.length);
+// console.log(myString.toUpperCase());
+// console.log(myString.substring(5));
+

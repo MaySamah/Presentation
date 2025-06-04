@@ -46,3 +46,13 @@ searchBtn.addEventListener("click", ()=>
     {
         checkWeather(searchBox.value);
     });
+
+//Trigger search with Enter key
+searchBox.addEventListener("keydown", function(event) 
+{
+    if (event.key === "Enter") 
+        {
+            event.preventDefault(); 
+            checkWeather(searchBox.value);
+        }
+});

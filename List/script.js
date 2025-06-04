@@ -50,3 +50,12 @@ function showTask()
         listConatiner.innerHTML = localStorage.getItem("data");
     }
 showTask();
+
+inputBox.addEventListener("keydown", function(event) 
+{
+    if (event.key === "Enter") 
+        {
+            event.preventDefault();
+            addTask();
+        }
+});
