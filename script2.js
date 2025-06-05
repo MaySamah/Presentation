@@ -2,11 +2,11 @@
 alert ("Hello World");
 
 // Using prompt to popup and take input and return data
-let name = prompt ("Hello", "");
-if (name != null)
-    {
-        document.getElementById("demo").innerHTML = "GoodBye " + name + ".";
-    }
+// let name = prompt ("Hello", "");
+// if (name != null)
+//     {
+//         document.getElementById("demo").innerHTML = "GoodBye " + name + ".";
+//     }
 
 // Activity Variables Research
 let fname = prompt ("What is your first name?")
